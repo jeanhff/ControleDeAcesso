@@ -11,10 +11,10 @@
 #define RST_PIN 5 //D1
 
 
-const char* ssid = "Freire";
-const char* password = "F3rr31r@Fr31r3";
-const char* MQTTusr = "admin";
-const char* MQTTpass = "relogio.";
+const char* ssid = "SeuSSID";
+const char* password = "SuaSenha";
+const char* MQTTusr = "SeuUsuarioMQTT";
+const char* MQTTpass = "SuaSenhaMQTT";
 String mac;
 MFRC522 mfrc522(SS_PIN, RST_PIN);   // Create MFRC522 instance.
 int statuss = 0;
