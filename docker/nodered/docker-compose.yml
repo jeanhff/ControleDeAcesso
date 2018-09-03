@@ -1,0 +1,11 @@
+# vim: ts=2 sw=2 et ai
+version: '2'
+services:
+  nodered:
+    #image: nodered/node-red-docker
+    build: nodered
+    restart: unless-stopped
+    ports:
+    - 1880:1880
+    volumes:
+    - ./data:/data
